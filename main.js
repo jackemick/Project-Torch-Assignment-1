@@ -68,7 +68,7 @@ function typeClear() {
 function typeWriter2() {
     if (z < s2.length) {
         text += s2.charAt(z);
-        document.getElementById("heading").innerHTML ="<span id='bracket'>&lt;</span><span id='head'>h1</span><span id='bracket'>&gt;</span>" + text + "<span id='cursor'>|</span>" + "<span id='bracket'>&lt;</span><span id='head'>/h1</span><span id='bracket'>&gt;</span>";
+        document.getElementById("heading").innerHTML ="<span id='bracket'>&lt;</span><span id='head'>h1</span><span id='bracket'>&gt;</span> " + text + "<span id='cursor'>|</span>" + "<span id='bracket'>&lt;</span><span id='head'>/h1</span><span id='bracket'>&gt;</span>";
         z++;
         setTimeout(typeWriter2, speed);
     }
