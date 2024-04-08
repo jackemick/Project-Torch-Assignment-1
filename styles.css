@@ -48,9 +48,9 @@ img {
     border-radius: 20px;
     
     
-    -webkit-animation: bounce 2s infinite ease-in-out;
-    -o-animation: bounce 2s infinite ease-in-out;
-    -ms-animation: bounce 2s infinite ease-in-out; 
-    -moz-animation: bounce 2s infinite ease-in-out; 
-    animation: bounce 2s infinite ease-in-out;
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out; 
+    -moz-animation: bounce 3s infinite ease-in-out; 
+    animation: bounce 3s infinite ease-in-out;
 }
