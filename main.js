@@ -14,7 +14,7 @@ var looped = 0;
 function typeWriter() {
         if (i < s1.length) {
             text += s1.charAt(i);
-            document.getElementById("heading").innerHTML ="<span id='bracket'>&lt;</span><span id='head'>h1</span><span id='bracket'>&gt;</span>" + text + "<span id='cursor'>|</span>" + "<span id='bracket'>&lt;</span><span id='head'>/h1</span><span id='bracket'>&gt;</span>";
+            document.getElementById("heading").innerHTML ="<span id='bracket'>&lt;</span><span id='head'>h1</span><span id='bracket'>&gt;</span> " + text + "<span id='cursor'>|</span>" + "<span id='bracket'>&lt;</span><span id='head'>/h1</span><span id='bracket'>&gt;</span>";
             i++;
             setTimeout(typeWriter, speed);
         }
@@ -49,6 +49,7 @@ function blinkCursor() {
     }
     else {
         document.getElementById("cursor").style.color = "#222222";
+        document.getElementById("icon").style.display = "block";
     }
 }
 

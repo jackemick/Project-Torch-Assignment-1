@@ -1,14 +1,13 @@
 #heading {
-    display: flex;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Cascadia Code', monospace;
     font-size: 30px;
     font-weight: lighter;
     margin: auto;
     margin-top: 30px;
     color: #ececec;
-    position: relative;
-    
 }
 
 img {
@@ -43,10 +42,11 @@ img {
 }
 
 #icon {
-    display: block;
+    display: none;
     margin-top: 20px;
     height: 70px;
     border-radius: 20px;
+    
     
     -webkit-animation: bounce 2s infinite ease-in-out;
     -o-animation: bounce 2s infinite ease-in-out;
