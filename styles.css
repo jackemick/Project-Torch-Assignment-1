@@ -1,0 +1,62 @@
+#heading {
+    display: flex;
+    text-align: center;
+    font-family: 'Cascadia Code', monospace;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: auto;
+    margin-top: 15px;
+    color: #ececec;
+    position: relative;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 20px;
+}
+
+#cursor {
+    display: inline;
+}
+
+#page{
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+}
+
+#bracket {
+    color: #989898;
+}
+
+#head {
+    color: #29C5F6;
+}
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+#icon {
+    display: block;
+    margin-top: 20px;
+    height: 70px;
+    border-radius: 20px;
+    
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    -o-animation: bounce 2s infinite ease-in-out;
+    -ms-animation: bounce 2s infinite ease-in-out; 
+    -moz-animation: bounce 2s infinite ease-in-out; 
+    animation: bounce 2s infinite ease-in-out;
+}
